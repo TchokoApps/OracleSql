@@ -1,0 +1,39 @@
+  Seite 19
+----------------------------
+oracle chef
+erm model: entity relationship model
+entität typ: mitarbeiter, bildschirm etc.
+
+entitättyp wie mitarbeitet
+
+Referenielle Integrität: referentiel integrity  
+*************************************************
+liegt auf einer fremdschlüsselspalte (beziehungsübergreifende integrität)
+
+foreign key can be NULL
+
+Eine fehlermeldung führt zu ein rollback. falsche fremdschlüssel z.b.
+
+primary key muss nicht immer id genannt werden sondern personalNr z.b.
+
+n:n wird über eine beziehungstabelle aufgelöst: fk:fk
+
+jeder tabelle sollte ein pk schüssel haben
+
+aufgabe
+********
+erstelle der tabele
+beziehung aufsetzten
+
+daten einlesen späterd
+
+f5 einzelne select statements
+f9 alle
+-------------------------------------------------
+SELECT Spaltenliste
+FROM Tabellenausdruck
+WHERE Bedingung
+GROUP BY spalten
+HAVING Bedingung
+ORDER BY Spaltenliste
+-------------------------------------------------

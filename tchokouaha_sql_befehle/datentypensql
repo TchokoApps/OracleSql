@@ -1,0 +1,46 @@
+-- Datentypen
+--ROWID
+------------------------------------
+select rowid,emp.*
+from emp;
+------------------------------------
+select rowid,dept.*
+from dept;
+------------------------------------
+select rowid,dept.*
+from dept where rowid = 'AAAR7yAAHAAAALzAAD';
+------------------------------------
+--date
+select sysdate 
+from dual;
+------------------------------------
+SELECT
+    SYSDATE,
+    TO_CHAR(
+        SYSDATE,
+        'DD.MM.YYYY HH24:MI:SS'
+    ) AS zeitstempel,
+    SYSDATE + 1 AS morgen,
+    TO_CHAR(SYSDATE,'DD.MM.YYYY HH24:MI:SS') AS zeitstempel,
+    TO_CHAR(SYSDATE+1,'DD.MM.YYYY HH24:MI:SS') AS zeitstempel,
+    TO_CHAR(SYSDATE+1/24,'DD.MM.YYYY HH24:MI:SS') AS zeitstempel,
+    TO_CHAR(SYSDATE+1/24/60,'DD.MM.YYYY HH24:MI:SS') AS zeitstempel, 
+    TO_CHAR(SYSDATE+1/24/60/60,'DD.MM.YYYY HH24:MI:SS') AS zeitstempel 
+FROM
+    dual;
+------------------------------------
+-- UPPER; LOWER; INITCAP
+SELECT
+    upper(ename) AS gross,
+    lower(ename) AS klein,
+    initcap(ename) AS gross2,
+    'Sehr geehrter Herr ' || initcap(ename) as anrede
+FROM
+    emp;
+------------------------------------
+------------------------------------
+------------------------------------
+------------------------------------
+------------------------------------
+------------------------------------
+------------------------------------

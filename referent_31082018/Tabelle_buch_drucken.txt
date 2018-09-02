@@ -1,0 +1,52 @@
+SQL>  TISBN
+
+    BUCHNR ISBN            LFDNR                                                                    
+---------- ---------- ----------                                                                    
+         5 5647363090          1                                                                    
+         8 3472864303          1                                                                    
+         8 34728643yx          2                                                                    
+        12 0201501139          1                                                                    
+        99 1234567zzz          2                                                                    
+        99 123456789x          1            
+
+SQL>  TBUCH 
+
+    BUCHNR     ERSCHJ      PREIS TITEL                                                              
+---------- ---------- ---------- --------------------------                           
+         5       1988        3,5 ANSICHTEN EINES CLOWNS                                             
+         6       1988       20,5 DIE BLECHTROMMEL                                                   
+         7       1989      99,99 DER NAME DER ROSE                                                  
+         8       1977        1,5 DER BUTT                                                           
+         9       1990         55 DB2 FUER SIE                                                       
+        11       1990            ELVIS IN HEIDELBERG                                                
+        12       1989            A GUIDE TO ORACLE                                                  
+        18       1989      99,99 DATABASE SYSTEMS                                                   
+        27                 49,99 DIE JÜDIN VON TOLEDO                                                                  
+
+
+
+SQL> TVAUTOR 
+
+    BUCHNR    AUTORNR      LFDNR                                                                    
+---------- ---------- ----------                                                                    
+         5          1          1                                                                    
+         6          2          1                                                                    
+         7          3          1                                                                    
+         8          2          1                                                                    
+         9         10          1                                                                    
+         9         11          2                                                                    
+        12         20          1                                                                    
+        12         21          2                                                                    
+
+SQL> TAUTOR 
+
+   AUTORNR AUTOR                                                                                    
+---------- ----------------------------------------                                                 
+         1 BOELL                                                                                    
+         2 GRASS                                                                                    
+         3 ECO                                                                                      
+         6 SCHEIFELE                                                                                
+        10 EMIL HACK                                                                                
+        11 FRIEDA HOLZ                                                                              
+        20 C. J. DATE                                                                               
+        21 COLIN J. WHITE    
